@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>Documentation</title>
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body data-spy="scroll" data-target=".sidebar" data-offset="200">
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-boxed sidebar-dark">
+        <div class="l-top-logo"><img src="images/logo-dark.png" alt=""></div>
+        <ul class="nav sidenav dropable">
+            <li><a href="#supports" title="Support">Support</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#getting_started" title="Getting Started">File & Folder Structure</a></li>
+            <li>
+                <a href="#head_css_structure" title="HEAD CSS Structure">Installation</a>
+                <ol>
+                    <li class="sub_ol"><a href="#node-2">Node</a></li>
+                    <li class="sub_ol"><a href="#npm-3">NPM</a></li>
+                    <li class="sub_ol"><a href="#react">Angular</a></li>
+                    <li class="sub_ol"><a href="#component">Adding New Component</a></li>
+                </ol>
+            </li>
+            <li><a href="#browser-support">browser-support</a></li>
+            <li><a href="#Source_Credits">Source & Credits</a></li>
+
+        </ul>
+    </aside>
+    <!-- END Sidebar -->
+
+    <main class="container-fluid">
+        <span class="react-spin-icon"><img width="300" height="300" src="images/angular-icon.svg"></span>
+        <!-- Main content -->
+        <article class="main-content" role="main">
+            <!--Support-->
+            <section id="supports" style="background-color:#fff; margin-bottom: 50px;">
+                <h2>Thank you for purchasing this Angular template.</h2>
+                <p> Any questions, please use our profile contact form on Envato ( <a target="_blank"
+                        href="https://themeforest.net/user/thewebmax">https://themeforest.net/user/thewebmax</a> ).</p>
+                
+               
+                <p><strong>Please support us by rating this template with 5 stars </strong>
+                    <span>
+                        <i class="fa fa-star" style="color:#ff7c0c"></i>
+                        <i class="fa fa-star" style="color:#ff7c0c"></i>
+                        <i class="fa fa-star" style="color:#ff7c0c"></i>
+                        <i class="fa fa-star" style="color:#ff7c0c"></i>
+                        <i class="fa fa-star" style="color:#ff7c0c"></i>
+                    </span>
+                </p>
+                
+            </section>
+
+            <!--Introduction-->
+            <section id="introduction">
+                <div class="page-header">
+                    <h4>Introduction</h4>
+                </div>
+                <p><b>Industro Angular</b> is the <b>Industry</b> base most powerful and responsive template having great
+                    modules and very useful functions with an attractive design. This theme provides powerful
+                    flexibility to customize code as per your requirement because of our code simplicity.</p>
+                <p>We provide five very impressive <b>industry home pages </b>with additional 15+ other module pages
+                    related to industry life cycle.</p>
+                <p>This document will describe whole <b>Industro template</b> with an application structure and guide how
+                    to use all the modules. This will beneficial for anyone who can update the template as per own
+                    unique need.</p>
+                <p>We have used very impressive and vast technology named <b>“Angular”</b>, It provides extremely high
+                    speed performance through single page application.</p>
+
+                <p>
+                    Angular Industro can be customized at any level, it includes custom sections and reusable elements for every single page. 
+A new component or element or section can be added using angular's component generator and then, can be customized/modified as per requirement using reusable elements. For reusability template uses bootstrap and custom reusable styles.</p>
+
+<p>
+The entire template uses .html and typescript (.ts) files for customization. Further for page functionalities like sliders, scrolls etc. javascript (.js) files are used and for designs and responsive patterns .css files are used.</p>
+<p>
+The theme/color switcher shown in preview template will not be included in download package, as it is only for preview purpose.
+                </p>    
+            </section>
+
+            <!--File & Folder Structure-->
+            <section id="getting_started">
+                <div class="page-header">
+                    <h4>File & Folder Structure</h4>
+                </div>
+                <p>This describes the file structure of <b>Industro Angular</b> application template.</p>
+                <table class="table table-bordered" style="width: 132.482%; height: 890px;">
+                    <tbody>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #800080;font-weight:700;">src</span></td>
+                            <td style="width: 301px; height: 24px;">The <strong>root directory</strong> of the
+                                application, contains source and necessary <strong>assets</strong> used
+                                for application.</td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span style="color: #a049a0;font-weight:500;">
+                                    &mdash;&mdash; app</span></td>
+
+                            <td style="width: 301px; height: 24px;">Entire <strong>source code of the
+                                    application</strong> is available in this folder so it is the <strong>main
+                                    folder</strong>.</td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    directives</span></td>
+                            <td style="width: 301px; height: 24px;">This directory contains custom
+                                <strong>actions/functions</strong> used to perform different tasks in different
+                                components.
+                            </td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    elements</span></td>
+                            <td style="width: 301px; height: 24px;">All pages are divided into <strong>small
+                                    sections</strong>, and they all are constructed using <strong>custom angular
+                                    components</strong>. This directory contains such components. Any new component can
+                                be added here and used in different pages.</td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    handlers</span></td>
+                            <td style="width: 301px; height: 24px;">This directory contains custom
+                                <strong>actions/functions</strong> handlers i.e. mail, forms etc.
+                            </td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    modules</span></td>
+                            <td style="width: 301px; height: 24px;">This directory contains <strong>moduler routing</strong> for similar groups/sections.
+                            </td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    pages</span></td>
+                            <td style="width: 301px; height: 24px;">All <strong>pages of this application</strong>
+                                contained in this directory.</td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    sections</span></td>
+                            <td style="width: 301px; height: 24px;">This directory contains <strong>fractions of enitre template</strong>, to make arrangement and mantinence in better way.
+                            </td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    app-routing.module</span></td>
+                            <td style="width: 301px; height: 24px;">A file named <strong>app.routing.module</strong> defines all <strong>routes
+                                    of the application</strong> with respect to related components or pages.</td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    app.component.html</span></td>
+                            <td style="width: 301px; height: 24px;">The <strong>root component</strong> of the
+                                application. Initial routing is defined here.</td>
+
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    app.module</span></td>
+                            <td style="width: 301px; height: 24px;">This directory contains declaration of <strong>all
+                                    components/pages</strong> for the application. A component need to be
+                                <strong>defined here</strong> before using in application.
+                            </td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span style="color: #a049a0;font-weight:500;">
+                                    &mdash;&mdash; assets</span></td>
+                            <td style="width: 301px; height: 24px;">This contains necessary <strong>Assets</strong> used
+                                for application.</td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    css</span></td>
+                            <td style="width: 301px; height: 24px;">This contains <strong>CSS</strong>. CSS stands for
+                                <strong>Cascading Style Sheets</strong>. It&rsquo;s used to define <strong>styles for
+                                    web pages</strong>&nbsp;including the design, layout, and variations in display for
+                                different devices and screen sizes.
+                            </td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    fonts</span></td>
+                            <td style="width: 301px; height: 24px;">This contains <strong>fonts including font awesome
+                                    library</strong> used for the application.</td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    images</span></td>
+                            <td style="width: 301px; height: 24px;">This contains <strong>images</strong> used for the
+                                application.</td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    js</span></td>
+                            <td style="width: 301px; height: 24px;">This contains <strong>javascript files</strong> used
+                                for the application.</td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span
+                                    style="color: #a766a7;font-weight:300;">&mdash;&mdash;&mdash;&mdash;
+                                    plugins</span></td>
+                            <td style="width: 301px; height: 24px;">This contains <strong>plugins</strong> used for the
+                                application.</td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span style="color: #a049a0;font-weight:500;">
+                                    &mdash;&mdash; index.html</span></td>
+                            <td style="width: 301px; height: 24px;">This contains necessary <strong>Assets</strong> used
+                                for application.</td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span style="color: #800080;font-weight:700;">
+                                    angular.json</span></td>
+                            <td style="width: 301px; height: 24px;">A <strong>file</strong> named
+                                <strong>angular.json</strong> at the root level of an <strong>Angular</strong> workspace
+                                provides workspace-wide and <strong>project</strong>-specific configuration defaults for
+                                build and development tools provided by the <strong>Angular CLI</strong>. Path values
+                                given in the configuration are relative to the root workspace folder.
+                            </td>
+                        </tr>
+                        <tr style="height: 24px;">
+                            <td style="width: 301px; height: 24px;"><span style="color: #800080;font-weight:700;">
+                                    package.json</span></td>
+                            <td style="width: 301px; height: 24px;">A package.json file contains
+                                <strong>metadata</strong> about an app or module. It includes the list of
+                                <strong>dependencies</strong> so it&rsquo;s most important for the application.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>&nbsp;</p>
+
+
+            </section>
+
+            <!--Install-->
+            <section id="head_css_structure">
+                <div class="page-header">
+                    <h4>Installation</h4>
+                </div>
+                <p>This section guides you to <strong>install all required software and libraries</strong> to utilize
+                    Industro angular for your projects fully.</p>
+            </section>
+
+            <!--Node-->
+            <section id="node-2">
+                <div class="page-header">
+                    <h4>Node</h4>
+                </div>
+                <p>Node.js® is a <strong>JavaScript run time built</strong> on Chrome’s V8 JavaScript engine. Node.js is
+                    required to build the <strong>Industro Angular</strong>. Download the latest version of Node and
+                    install it: Download <a href="https://nodejs.org/en/" target="_blank"
+                        rel="noopener noreferrer">Nodejs</a></p>
+            </section>
+
+            <!--NPM-->
+            <section id="npm-3">
+                <div class="page-header">
+                    <h4>NPM</h4>
+                </div>
+                <p><strong>NPM</strong> is the <strong>package manager</strong> for JavaScript and the world’s largest
+                    software registry. NPM is a separate project from Node.js and tends to <strong>update</strong> more
+                    frequently. As a result, even if you’ve just downloaded Node.js (and therefore npm), you’ll probably
+                    need to <strong>update</strong> your NPM .</p>
+<pre class="line-numbers">
+<code class="language-markup"  style="color: #800080;">npm install --global npm@latest</code>
+</pre>
+<p>Verify that npm in successfully installed, and version of installed npm will appear</p>
+<pre class="line-numbers">
+<code class="language-markup"  style="color: #800080;">npm --version</code>
+</pre>
+</section>
+
+
+            <!--Angular-->
+            <section id="react">
+                <div class="page-header">
+                    <h4>Angular</h4>
+                </div>
+
+                <strong
+                    style="font-size: 18px; margin-bottom: 20px; margin-top: 30px; display: block;">Installation</strong>
+                <p>1. <strong>First</strong>, Ensure to install the Angular CLI, open a terminal window and run the
+                    following command:</p>
+<pre class="line-numbers">
+<code class="language-markup"  style="color: #800080;">npm install -g @angular/cli</code>
+</pre>
+                <p>2. <strong>Then after</strong>, unzip the <strong>zip</strong> file that you have download from
+                    ThemeForest. You will find a Industro-Angular-1.0 project folder.</p>
+                <p>3. <strong>Extract zip</strong> File (Industro.zip) into a folder, you have to work within.
+                </p>
+                <p>4. Open a <strong>Node</strong> Prompt. Go to your <strong>Working Folder</strong>, And run the
+                    Following Command and wait for finish installation.</p>
+<pre class="line-numbers">
+<code class="language-markup"  style="color: #800080;">npm install</code>
+</pre>
+                <p>5. This command will <strong>install</strong> all the required node module into node_module/ inside
+                    your working folder.</p>
+                <p>6. You are ready to <strong>run</strong> the Industro angular application for the first time</p>
+                <p>7. While still your working folder and <strong>run</strong> the following command</p>
+<pre class="line-numbers">
+<code class="language-markup"  style="color: #800080;">ng serve --open</code>
+</pre>
+                <strong
+                    style="font-size: 18px; margin-bottom: 20px; margin-top: 30px; display: block;">Deployment</strong>
+                <p>For the simplest deployment, create a <strong>production build</strong> and copy the output directory
+                    to a web server.
+
+                <p>1. Start with the production build:</p>
+<pre class="line-numbers">
+<code class="language-markup" style="color: #800080;">ng build --prod</code>
+    or
+<code class="language-markup" style="color: #800080;">ng build --prod --base-href "&lt;your-domain&gt;"</code>
+</pre>
+                <p>2. Copy <i>everything</i> within the output folder (<code>dist/project-name/</code> by default) to a
+                    folder on the server.</p>
+                <p>3. Configure the server to redirect requests for missing files to <code>index.html</code>.
+                    Learn more about server-side redirects at <a
+                        href="https://angular.io/guide/deployment#fallback">here</a>.</p>
+
+                This is the simplest production-ready deployment of your application.
+
+                <strong style="font-size: 18px; margin-bottom: 20px; margin-top: 30px; display: block;">Further
+                    help</strong>
+                <p>To get more help : <a href="https://angular.io/start">https://angular.io/start</a></p>
+                </div>
+            </section>
+
+            <!--Adding New Component-->
+            <section id="component">
+                <div class="page-header">
+                    <h4>Adding New Component</h4>
+                </div>
+                <p>The easiest way to create a <strong>component</strong> is with the <strong>Angular CLI</strong>. You
+                    can also create a component manually. Full overview about angular components can be find <a
+                        href="https://angular.io/guide/component-overview">here</a>.</p>
+
+                <strong style="font-size: 18px; margin-bottom: 20px; margin-top: 30px; display: block;">Creating a
+                    component using the Angular CLI</strong>
+
+                <p>To create a component using the Angular CLI:</p>
+
+                <p><strong>Step 1 :</strong>
+                    From a terminal/cmd window, navigate to the directory containing your application.
+                </p>
+
+                <p><strong>Step 2:</strong> Run the <code>ng generate component &lt;component-name&gt;</code> command,
+                    where <code>&lt;component-name&gt;</code> is the name of your new component.</p>
+
+                <p>
+                    By default, this command creates the following:
+                    <br>
+                <ul>
+                    <li>A folder named after the component</li>
+                    <li>A component file, <code>&lt;component-name&gt;</code>.component.ts</li>
+                    <li>A template file, <code>&lt;component-name&gt;</code>.component.html</li>
+                    <li>A CSS file, <code>&lt;component-name&gt;</code>.component.css</li>
+                    <li>A testing specification file, <code>&lt;component-name&gt;</code>.component.spec.ts</li>
+                </ul>
+                Where <code>&lt;component-name&gt;</code> is the name of your component.
+                </p>
+
+                <strong style="font-size: 18px; margin-bottom: 20px; margin-top: 30px; display: block;">Creating a
+                    component manually
+                </strong>
+                <p>Although the Angular CLI is the easiest way to create an <strong>Angular component</strong>, you can
+                    also create a component <strong>manually</strong>.</p>
+
+                <p>To create a new component manually:</p>
+
+                <p><strong>Step 1 :</strong>
+                    Navigate to your Angular project directory.
+                </p>
+                <p><strong>Step 2 :</strong>
+                    Create a new file, <code>&lt;component-name&gt;</code>.component.ts.
+                </p>
+                <p><strong>Step 3 :</strong>
+                    At the top of the file, add the following import statement.
+                </p>
+                <pre class="line-numbers">
+                    <code class="language-css">import { Component } from '@angular/core';</code>
+                </pre>
+                <p><strong>Step 4 :</strong>
+                    After the <code>import</code> statement, add a <code>@Component</code> decorator.
+                </p>
+                <pre class="line-numbers">
+                    <code class="language-css">@Component({
+                    })</code>
+                </pre>
+                <p><strong>Step 5 :</strong>
+                    Choose a CSS selector for the component.
+                </p>
+                <pre class="line-numbers">
+                    <code class="language-css">@Component({
+                        selector: 'app-component-overview',
+                      })</code>
+                </pre>
+                <p>For more information on choosing a selector, see <a
+                        href="https://angular.io/guide/component-overview#specifying-a-components-css-selector">Specifying
+                        a component's selector</a>.</p>
+                <p><strong>Step 6 :</strong>
+                    Define the HTML template that the component uses to display information. In most cases, this
+                    template is a separate HTML file.
+                </p>
+                <pre class="line-numbers">
+                    <code class="language-css">@Component({
+                        selector: 'app-component-overview',
+                        templateUrl: './component-overview.component.html',
+                      })</code>
+                </pre>
+                <p>For more information on defining a component's template, see <a
+                        href="https://angular.io/guide/component-overview#defining-a-components-template">Defining a
+                        component's template</a>.</p>
+                <p><strong>Step 7 :</strong>
+                    Select the styles for the component's template. In most cases, you define the styles for your
+                    component's template in a separate file.
+                </p>
+                <pre class="line-numbers">
+                    <code class="language-css">@Component({
+                        selector: 'app-component-overview',
+                        templateUrl: './component-overview.component.html',
+                        styleUrls: ['./component-overview.component.css']
+                      })</code>
+                </pre>
+                <p><strong>Step 8 :</strong>
+                    Add a <code>class</code> statement that includes the code for the component.
+                </p>
+                <pre class="line-numbers">
+                    <code class="language-css">export class ComponentOverviewComponent {
+
+                    }</code>
+                </pre>
+            </section>
+
+            <!--Browser support-->
+            <section id="browser-support">
+                <div class="page-header">
+                    <h4>Browser support</h4>
+                </div>
+                <p><span>Industro Angular Supports <strong>Multi-Browser</strong> like Chrome, Safari, Internet Explorer
+                        10+,
+                        Mozilla Firefox and Microsoft Edge.</span></p>
+            </section>
+
+            <!--Source & Credits-->
+            <section id="Source_Credits">
+                <div class="page-header">
+                    <h4>Source & Credits</h4>
+                </div>
+                <p>Below are the <strong>libraries/components</strong>, we have used in creating this template.</p>
+                <ul>
+                    <li><a href="https://angular.io">Angular 11.2.6</a></li>
+                    <li><a href="https://getbootstrap.com/">Bootstrap v4.6.0</a></li>
+                    <li><a href="https://www.npmjs.com/package/@angular/google-maps">Angular/google-maps 11.2.9</a>
+                    </li>
+                    <li><a href="https://fontawesome.com/">font-awesome</a></li>
+                    <li><a href="https://www.flaticon.com/">flaticon</a></li>
+                </ul>
+            </section>
+
+        </article>
+        <!-- END Main content -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer text-center">
+        <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+
+            <p>Copyright &copy; 2021. All right reserved</p>
+
+        </div>
+    </footer>
+    <!-- END Footer -->
+
+
+    <!-- Scripts -->
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
